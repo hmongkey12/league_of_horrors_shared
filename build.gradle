@@ -2,7 +2,6 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '2.5.6'
     id 'io.spring.dependency-management' version '1.1.0'
-    id("maven-publish")
 }
 
 
@@ -42,7 +41,4 @@ jar {
     archiveClassifier.set(null)
 }
 
-task cleanBuildCache(type: Delete) {
-    delete rootProject.buildDir
-}
 
