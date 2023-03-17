@@ -20,11 +20,11 @@ public class SerializableHeroEntity implements Serializable {
     private String id;
     private boolean isFalling;
     private boolean isJumping;
-    private float jumpStart;
     private int health;
     private float movingStart;
-    private float movingEnd;
+    private float jumpStart;
     private float attackStart;
+    private float movingEnd;
     private float attackEnd;
     private String facingDirection;
 }

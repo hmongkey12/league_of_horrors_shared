@@ -3,8 +3,9 @@ package com.serializers;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-public class BasicSerializerTest {
+import java.time.Instant;
 
+public class BasicSerializerTest {
     @Test
     public void testSerializeAndDeserialize() throws Exception {
         // Create an object to serialize and deserialize

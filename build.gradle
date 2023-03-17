@@ -8,7 +8,7 @@ plugins {
 
 
 group = 'com.github.hmongkey12'
-version = '1.0.0'
+version = '1.0.2'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
@@ -37,7 +37,7 @@ bootJar.enabled = false
 
 jar {
     archiveBaseName.set('league-shared-types')
-    archiveVersion.set('1.0.0')
+    archiveVersion.set('1.0.2')
     archiveClassifier.set(null)
 }
 
